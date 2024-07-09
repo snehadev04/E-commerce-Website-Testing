@@ -31,6 +31,38 @@
   2. Click on the search button.
 - **Expected Result**: Relevant products are displayed.
 
+### Test Case ID: TC_FT_004
+- **Test Case Name**: Logout functionality
+- **Description**: Verify that users can logout from the application.
+- **Pre-conditions**: User is logged in.
+- **Test Steps**:
+  1. Click on the menu button.
+  2. Click on the logout link.
+- **Expected Result**: User is redirected to the login page.
+
+### Test Case ID: TC_FT_005
+- **Test Case Name**: Checkout functionality
+- **Description**: Verify that users can successfully place an order and navigate back to the home page.
+- **Pre-conditions**: User has added items to the cart and is on the checkout page.
+- **Test Steps**:
+  1. Fill out checkout information.
+  2. Click on the finish button.
+  3. Click on the 'Back Home' button.
+- **Expected Result**: 
+   - "Order placed successfully!" message is displayed.
+   - User is navigated back to the home page.
+
+### Test Case ID: TC_FT_006
+- **Test Case Name**: Product search and add to cart functionality
+- **Description**: Verify that users can search for a product and add it to the cart.
+- **Pre-conditions**: User is logged in and on the inventory page.
+- **Test Steps**:
+  1. Login with valid credentials.
+  2. Search for a specific product.
+  3. Add the product to the cart.
+  4. Verify the product is added correctly.
+- **Expected Result**: Product is successfully added to the cart.
+
 ## 2. Regression Testing
 
 ### Test Case ID: TC_RT_001
@@ -63,4 +95,4 @@
   3. Add the product to the cart.
   4. Proceed to checkout.
   5. Complete the checkout process.
-- **Expected Result**: Order is placed successfully.
+- **Expected Result**: Order is placed successfully!
